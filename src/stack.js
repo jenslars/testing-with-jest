@@ -4,8 +4,7 @@ let stack = [];
 
 // Lägger ett element överst i stacken
 exports.push = function (x) {
-    //Medvetet fel
-    stack.pop(x);
+    stack.push(x);
 };
 
 // Returnerar det översta elementet i stacken och tar bort det
